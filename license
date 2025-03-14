@@ -1,0 +1,20 @@
+
+---
+
+### **9. `package.json` (Root Directory)**
+Dependencies for the entire project.
+
+```json
+{
+  "name": "decentralized-credit-scoring",
+  "version": "1.0.0",
+  "description": "A decentralized credit scoring system",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.js --network rinkeby"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.0"
+  }
+}
