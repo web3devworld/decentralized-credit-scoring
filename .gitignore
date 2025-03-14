@@ -4,8 +4,8 @@ npm-debug.log
 .env
 
 # Build artifacts
-artifacts/
-cache/
+decentralized-credit-scoring/artifacts/
+decentralized-credit-scoring/cache/
 
 # IDEs and editors
 .vscode/
